@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intergram Integration</title>
+    <style>
+        /* Mengatur body dan html agar mengambil penuh layar */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Mencegah scroll */
+        }
+    </style>
+    <script>
+        window.intergramId = "682723201";
+        window.intergramCustomizations = {
+            titleClosed: 'Form Feedback',
+            titleOpen: 'Tulis Feedback Anda',
+            introMessage: 'Tulis Kesan dan Pesan disini !!!',
+            autoResponse: 'Terima kasih !!!',
+            autoNoResponse: 'Apakah masih ada lagi? Tulis saja langsung!',
+            mainColor: "#FF0000",
+            alwaysUseFloatingButton: false
+        };
+    </script>
+    <script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script>
+</head>
+<body>
+</body>
+</html>
